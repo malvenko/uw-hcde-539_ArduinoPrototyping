@@ -1,6 +1,12 @@
 /*
   Traffic light
 
+  Turns on/off three colored LEDs pretending to be a stop light.
+
+  Created October 2018
+  By José Lara
+  for UW HCDE 539 - Physical Computing & Prototyping
+
   Tutorial based on the ArduinoIDE example: BLINK.
   http://www.arduino.cc/en/Tutorial/Blink
 */
