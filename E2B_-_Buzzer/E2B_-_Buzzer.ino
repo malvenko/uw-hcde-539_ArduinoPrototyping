@@ -5,6 +5,8 @@
  * Based on code from: https://www.instructables.com/id/How-to-use-a-Buzzer-Arduino-Tutorial/ 
  * Based on code from HCDE539 - Button Examples
  * 
+ * Added an LED to make it accessible for hearing-impaired individuals.
+ * 
  * Author: JoseLara@uw.edu
  * HCDE539A
  * Fall 2018
