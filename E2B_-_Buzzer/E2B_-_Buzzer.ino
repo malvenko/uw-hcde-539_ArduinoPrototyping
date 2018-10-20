@@ -36,7 +36,7 @@ void loop() {
   //get button state
   int action = butt.checkButtonAction();
 
-  //check button state and if held or pressed, turn on buzzer and LED
+  //check button state and if held or pressed, turn on buzzer and LED for 1 second
   if (action == Button::HELD_CLICKED or action == Buetton::CLICKED) {
     tone(pinBuzz, 500); // Send 1KHz sound signal
     digitalWrite(pinLed, HIGH);
