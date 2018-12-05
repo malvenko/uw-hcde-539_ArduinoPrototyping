@@ -156,7 +156,7 @@ void loop(){
     digitalWrite(ledYellowPin, LOW);  
   }
 
-  //get the recording state
+  //get the recording state sent from the RaspberryPi pin
   rpiPinState = digitalRead(rpiPin); 
   Serial.println(rpiPinState);
   recordingState = rpiPinState;
@@ -184,6 +184,7 @@ void loop(){
         }
       } 
    } 
+   //make the button LED blink constantly when the recording mode is detected
    if(recordingState ==1)
    {
       
